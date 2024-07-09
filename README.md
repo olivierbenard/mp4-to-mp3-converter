@@ -1,6 +1,6 @@
 # mp4-to-mp3-converter
 
-A python package to extract the audio from a video file.
+A python module to extract the audio from a video file.
 
 ## Dependencies
 
