@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mp4-to-mp3-converter"
+version = "0.1.0"
+description = "A Python package to extract the audio from a video file."
+authors = ["Olivier Bénard"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.4.2"
+mypy = "^1.10.1"
+pylint = "^3.2.5"
+pytest = "^8.2.2"
+moviepy = "^1.0.3"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
